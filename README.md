@@ -1,14 +1,36 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/LXcrfC_Y)
-
 Ej 1
 
+Process.Start(). S'utilitza per llançar aplicacions externes des del teu programa, per exemple buscadors com en l'exercici 3.
+
+Process.GetProcesses(). Serveix per veure i gestionar tots els processos actius.
+
+Process.GetProcessesByName(string name). S'utilitza en els cassos on només vols treballar amb processos concrets, cosa que també hem fet a l'exercici 3.
+
+Process.Kill(). Dorça a tancar aplicacions de forma programada o d'emergència. Però s'ha d'anar amb compte o podries quedar-te sense ordinador. 
+
+Process.StartTime. T'indica l'hora i data en què va començar el procés.
+
+-----------------------------------------------
 
 Ej 3
 
 No, s'obren la mateixa quantitat de fils
 
+-----------------------------------------------
+
 Ej 4
 
+Thread.Start(). Comença l'execució d'un fil / llença una tasca perquè es faci en paral·lel al teu programa principal.
+
+Thread.Sleep(). Atura el fil actual durant el tems que vulgis. (en milisegons).
+
+Thread.Join(). Atura el programa prinicpal fins que el fil acabi, desprès continua amb normalitat el programa principal.
+
+Thread.IsAlive. S'utilitza per veure l'estat del fil, si encara està en execució o ja ha finalitzat.
+
+Thread.CurrentThread. Ens permet saber quin fil se està executant, útil per quan es fa debugg.
+
+-----------------------------------------------
 
 Ej 5
 
