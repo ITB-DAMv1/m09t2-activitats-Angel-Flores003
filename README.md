@@ -35,6 +35,8 @@ Thread.CurrentThread. Ens permet saber quin fil se està executant, útil per qu
 Ej 5
 
 Ho he provat 30 vegades i quasi bè totes s'imprimia en l'ordre correcte escribint "Hola! Soc el fil número x".
+
 Ho he provat 20 evgades i la meitat de vegades s'han imprimit en l'orde correcte, l'altre meitat s'ha imprimit en un orde aleatori escribint només el número "x".
+
 Perquè cada fil va per lliure, i qui acaba priper és el que s'imprimeix prime, no te res a veure amb qui ha comenzat a executar-se primer.
 Comença el programa y mentre un fil es comença a executar el programa principal segueix exevutant-se.
